@@ -14,18 +14,6 @@ Shaded            |  WireFrame
 
 ---
 
-
-
-##  PCB
-
-_Replace the placeholders below with your PCB images._
-
-![PCB Front](images/pcb_front_placeholder.png)  
-![PCB Back](images/pcb_back_placeholder.png)  
-![PCB Wiring](images/pcb_wiring_placeholder.png)
-
----
-
 ## 🧾 Features
 
 - 9 programmable keys (currently set to numbers `1–9`)
@@ -33,6 +21,16 @@ _Replace the placeholders below with your PCB images._
 - Push-to-toggle Play/Pause
 - KMK firmware written in Python for rapid iteration
 - USB HID support (works on macOS, Windows, Linux)
+
+---
+
+
+
+##  PCB
+PCB            |  Schematic
+:-------------------------:|:-------------------------:
+![PCB Front](https://github.com/user-attachments/assets/fe14e158-7bf4-4130-a9e4-d2c2ffe600b3)  |  ![PCB Back](https://github.com/user-attachments/assets/0920f8ec-823d-4420-902b-3d1fbaa8548c)
+
 
 ---
 
@@ -49,22 +47,10 @@ _Replace the placeholders below with your PCB images._
 | 1        | Seeed XIAO RP2040              |
 | 1        | Case (2 printed parts)         |
 
----
-
-## 🔌 Wiring Summary
-
-- **Key Matrix**: 3 rows × 3 columns using 1N4148 diodes (COL2ROW)
-- **Encoder**:
-  - A → GP0  
-  - B → GP1  
-  - Button → GP7 (or matrix)
-- **Matrix Pins**:
-  - Rows: GP27 (A1), GP28 (A2), GP26 (A0)  
-  - Cols: GP4 (MISO), GP5 (SCK), GP6 (SDA)
 
 ---
 
-## 💻 Firmware
+##  Firmware
 
 This project uses [KMK Firmware](https://github.com/KMKfw/kmk_firmware), a keyboard firmware built on CircuitPython. Code can be modified directly on the board via USB like a flash drive.
 
@@ -73,41 +59,16 @@ This project uses [KMK Firmware](https://github.com/KMKfw/kmk_firmware), a keybo
 - Encoder input
 - Volume + media key support
 
----
-
-## 🚀 Getting Started
-
-1. Flash CircuitPython onto your XIAO RP2040  
-2. Copy `code.py` and the `lib/` folder from KMK into the CIRCUITPY volume  
-3. Plug it in and test!
 
 ---
 
-## 🧠 Customization Ideas
-
-- Add layers using KMK’s `Layers` module  
-- Program macros (e.g., copy/paste or OBS shortcuts)  
-- Add an OLED display to show current layer or media state  
-- Swap encoder behavior for scrolling or app switching
-
----
-
-## 🔱 TAC YANTRA
+##  TAC YANTRA
 
 **TAC YANTRA** is the name of this device:
 
 - **TAC** – a nod to tactical utility and control  
 - **YANTRA** – a Sanskrit term meaning *"instrument" or "machine"*, often used to describe spiritual diagrams or sacred mechanisms that focus energy or intent  
 
-Together, **TAC YANTRA** represents a **tactical interface device** designed with both **mechanical precision** and **intentional design** — bridging modern tech with ancient meaning.
+Together, **TAC YANTRA** represents a **tactical interface device** designed with both **mechanical precision**. Very funny name ik ik lol. 
 
 ---
-
-## 📄 License
-
-MIT License.  
-Feel free to remix and share!
-
----
-
-_Designed by [Your Name]_
