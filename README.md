@@ -12,15 +12,6 @@ Shaded            |  WireFrame
 :-------------------------:|:-------------------------:
 ![Bottom Base - TAC v5 shaded](https://github.com/user-attachments/assets/b33aa44e-7c4c-46c1-b122-d0d98e246d67)  |  ![Bottom Base - TAC v5](https://github.com/user-attachments/assets/521b8432-4ac8-4405-b809-29eab201513f)
 
----
-
-## 🧾 Features
-
-- 9 programmable keys (currently set to numbers `1–9`)
-- EC11 rotary encoder for volume control
-- Push-to-toggle Play/Pause
-- KMK firmware written in Python for rapid iteration
-- USB HID support (works on macOS, Windows, Linux)
 
 ---
 
@@ -32,6 +23,25 @@ PCB            |  Schematic
 ![PCB Front](https://github.com/user-attachments/assets/fe14e158-7bf4-4130-a9e4-d2c2ffe600b3)  |  ![PCB Back](https://github.com/user-attachments/assets/0920f8ec-823d-4420-902b-3d1fbaa8548c)
 
 
+---
+## How It Fits Together
+
+![v2](https://github.com/user-attachments/assets/cf59dbf2-dfe0-481d-8c75-dcc189d6321b)
+
+
+It uses HeatSet Inserts at the bottom that are secured by M3 x 16mm screws from the top.
+ 
+---
+
+
+##  Features
+
+- 9 programmable keys (currently set to numbers `1–9`)
+- EC11 rotary encoder for volume control
+- Push-to-toggle Play/Pause
+- KMK firmware written in Python for rapid iteration
+- USB HID support (works on macOS, Windows, Linux)
+  
 ---
 
 ## ⚙️ Bill of Materials (BOM)
@@ -54,7 +64,7 @@ PCB            |  Schematic
 
 This project uses [KMK Firmware](https://github.com/KMKfw/kmk_firmware), a keyboard firmware built on CircuitPython. Code can be modified directly on the board via USB like a flash drive.
 
-📂 `code.py` handles:
+`code.py` handles:
 - Matrix setup
 - Encoder input
 - Volume + media key support
