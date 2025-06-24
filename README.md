@@ -1,6 +1,6 @@
 # TAC YANTRA - 3x3 Macro Keypad with Rotary Encoder
 
-This is a custom 9-key macro pad with a rotary encoder, powered by the XIAO RP2040 and running KMK firmware. It supports media control, number input, and layer extensibility — all programmable in CircuitPython using KMK.
+This is a custom 9-key macro pad with a rotary encoder, powered by the XIAO RP2040 and running KMK firmware. It was a pain to make but very enlightening.
 
 ---
 
@@ -72,7 +72,7 @@ This project uses [KMK Firmware](https://github.com/KMKfw/kmk_firmware), a keybo
 
 ---
 
-##  TAC YANTRA
+##  TAC YANTRA - Explanation Behind The Name
 
 **TAC YANTRA** is the name of this device:
 
