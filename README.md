@@ -76,9 +76,9 @@ This project uses [KMK Firmware](https://github.com/KMKfw/kmk_firmware), a keybo
 
 **TAC YANTRA** is the name of this device:
 
-- **TAC** – a nod to tactical utility and control  
-- **YANTRA** – a Sanskrit term meaning *"instrument" or "machine"*, often used to describe spiritual diagrams or sacred mechanisms that focus energy or intent  
-
-Together, **TAC YANTRA** represents a **tactical interface device** designed with both **mechanical precision**. Very funny name ik ik lol. 
+- **TAC** – tactical 
+- **YANTRA** – a Sanskrit term meaning *"instrument" or "machine"*
+- 
+Together, **TAC YANTRA** is  a tactical interface device. Very funny name ik ik lol. 
 
 ---
